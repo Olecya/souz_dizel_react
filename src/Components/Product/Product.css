@@ -1,0 +1,115 @@
+.product {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    background: white;
+    padding: 0 0 125px;
+    color: black;
+}
+
+.product__title {
+    margin: 0 70px 50px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #8B8B8B;
+    mix-blend-mode: normal;
+    border-bottom: 1px solid rgba(218, 218, 218, 0.5);
+}
+
+.product__link {
+    font-weight: bold;
+    font-size: 30px;
+    max-width: 1140px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 40px;
+    border-bottom: 1px solid #993300;
+    cursor: pointer;
+}
+
+
+.product__cards {
+    display: flex;
+    justify-content: start;
+    margin: 0 0 60px 70px;
+    width: 100%;
+    max-width: fit-content;
+}
+
+.product__card {
+    border: 2px solid #993300;
+    text-align: center;
+    width: 160px;
+    padding-top: 30px;
+    margin-right: 70px;
+    /* visibility: hidden; */
+}
+
+.product__card-img {
+    /* background-image: url(../../image/logo.png); */
+    box-sizing: border-box;
+    /* height: 160px; */
+    width: 100%;
+    background-color: transparent;
+}
+
+.product__card-text {
+    margin: 0 5px;
+}
+
+.product__link-text {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: -0.04em;
+    color: #292929;
+    text-decoration: none;
+}
+
+.product__link:last-child {
+    margin: 0 auto;
+    border-bottom: none;
+}
+
+.product__link-but {
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    border: none;
+    background-image: url(../../images/logo-product.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .product__link {
+        max-width: 668px;
+        margin: 0 auto 20px;
+    }
+
+    .product__card {
+        width: 120px;
+        margin-right: 35px;
+    }
+
+    .product__card-text {
+        font-size: 18px;
+    }
+
+    .product__link-text {
+        font-size: 23px;
+    }
+
+    .product__title {
+        margin: 0 50px 50px;
+        font-size: 14px;
+    }
+
+    .product {
+        padding: 0 0 90px;
+    }
+}
