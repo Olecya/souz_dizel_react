@@ -68,23 +68,28 @@
 }
 
 
-/* @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .header {
         max-width: 928px;
     }
-}*/
-
-@media screen and (max-width: 768px) {
-    .header_contact {
-        font-size: 13px;
-        line-height: 18px;
-    }
 }
 
-@media screen and (max-width: 768px) {
+
+
+@media screen and (max-width: 797px) {
+    .header {
+        position: fixed;
+        z-index: 4;
+    }
+
     .header__logo {
         min-height: 38px;
         max-width: 62px;
         margin: 0 30px;
+    }
+
+    .header_contact {
+        font-size: 13px;
+        line-height: 18px;
     }
 }

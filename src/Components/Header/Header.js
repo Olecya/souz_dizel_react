@@ -23,7 +23,7 @@ const Header = () => {
             <img src={CD} className="header__logo" alt="Союз Дизель" />
 
 
-            {(width > 768 ?
+            {(width > 797 ?
                 <div className="header_contacts">
                     <div className="header_contact">
                         <span>E-mail:</span>

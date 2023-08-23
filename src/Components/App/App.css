@@ -39,6 +39,7 @@
 }
 
 .page {
+  position: relative;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "Inter", "Intel", "Arial", "Helvetica", sans-serif;

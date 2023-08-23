@@ -33,6 +33,31 @@
     transition: opacity 0.5s linear;
 }
 
+.cover__subtitle {
+    text-align: center;
+    max-width: 360px;
+    margin: 0 auto;
+    z-index: 2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 122%;
+}
+
+
+.cover__title {
+    max-width: 560px;
+    margin: 0 auto 32px;
+    align-self: center;
+    z-index: 2;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 106%;
+    text-align: center;
+
+}
+
 .cover__link:hover:before {
     opacity: 0.8;
 }
@@ -47,21 +72,26 @@
 
 @media screen and (max-width: 927px) {
 
+
     .cover__link {
         /* max-width: 768px; */
-        min-height: 480px;
+        /* min-height: 480px; */
         max-width: 100%;
+    }
+
+    .cover__title {
+        max-width: 560px;
+        margin: 0 auto 32px;
+        align-self: center;
+        z-index: 2;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 52px;
+        line-height: 106%;
+        text-align: center;
     }
 }
 
-@media screen and (max-width: 767px) {
-
-    .cover__link {
-        max-width: 100%;
-        min-height: 200px;
-        /* margin-top: 66px; */
-    }
-}
 
 @media screen and (max-width: 578px) {
 
@@ -70,19 +100,10 @@
     }
 }
 
-.cover__title {
-    max-width: 560px;
-    margin: 0 auto 32px;
-    align-self: center;
-    z-index: 2;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 106%;
-    text-align: center;
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 797px) {
+    .cover {
+        padding: 50px 0 0 0;
+    }
 
     .cover__title {
         max-width: 488px;
@@ -93,23 +114,29 @@
     }
 }
 
-.cover__subtitle {
-    text-align: center;
-    max-width: 360px;
-    margin: 0 auto;
-    z-index: 2;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 122%;
-}
 
 @media screen and (max-width: 768px) {
 
+    .cover__title {
+        max-width: 488px;
+        margin: 50px auto 16px;
+        font-size: 32px;
+        line-height: 109%;
+        white-space: pre-line;
+    }
+
+
     .cover__subtitle {
+        margin: 0 auto 90px;
         max-width: 288px;
         font-size: 14px;
         line-height: 114%;
         white-space: pre-line;
+    }
+
+    .cover__link {
+        max-width: 100%;
+        min-height: 200px;
+        /* margin-top: 66px; */
     }
 }
