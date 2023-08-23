@@ -74,8 +74,8 @@
 
 
     .cover__link {
-        /* max-width: 768px; */
-        /* min-height: 480px; */
+        max-width: 768px;
+        min-height: 480px;
         max-width: 100%;
     }
 
@@ -101,9 +101,9 @@
 }
 
 @media screen and (max-width: 797px) {
-    .cover {
-        padding: 50px 0 0 0;
-    }
+    /* .cover {
+        padding: 0;
+    } */
 
     .cover__title {
         max-width: 488px;
@@ -116,6 +116,9 @@
 
 
 @media screen and (max-width: 768px) {
+    .cover {
+        padding: 0;
+    }
 
     .cover__title {
         max-width: 488px;
